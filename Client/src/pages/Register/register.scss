@@ -1,0 +1,30 @@
+.main-page{
+    display: flex;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.left{
+    flex: 1;
+    background-color: #ffffff;
+    .bg-image{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.right{
+    background-color: #ffffff;
+    width: 460px;
+    padding: 30px;
+    box-sizing: border-box;
+    //untuk membuat content berada di tengah
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //
+    .title{
+        font-size: 20px;
+        font-weight: bold;
+        color: #2d2d2d;
+        text-align: center;
+    }
+}

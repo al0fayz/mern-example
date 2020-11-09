@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #db08d1;
+    align-items: center;
+    .logo-footer{
+        object-fit: contain;
+        // width: 30px;
+        // height: 30px;
+    }
+    .social-wrapper{
+        display: flex;
+        .icon-wrapper{
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 0px 20px;
+            border-radius: 40px;
+            .icon-footer{
+                width: 30px;
+                height: 30px;
+                object-fit: contain;
+            }
+        }
+    }
+}
+.copyright{
+    background-color: #490345;
+    padding: 10px 0px;
+    p{
+        font-size: 14px;
+        color: #ffffff;
+        text-align: center;
+        margin: 0px;
+    }
+}
