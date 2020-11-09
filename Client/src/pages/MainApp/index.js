@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { CreateBlog } from '../CreateBlog';
 import { DetailBlog } from '../DetailBlog';
 import { Footer, Header } from '../../components';
+import { Home } from '../Home';
 import './mainApp.scss';
 
 export const MainApp = () => {
@@ -17,6 +18,9 @@ export const MainApp = () => {
                         </Route>
                         <Route path="/detail-blog">
                             <DetailBlog />
+                        </Route>
+                        <Route path="/">
+                            <Home />
                         </Route>
                     </Switch>
                 </Router>
